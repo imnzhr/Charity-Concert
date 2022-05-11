@@ -1,0 +1,141 @@
+<html>  
+    <head>
+        <style>            
+            ul{
+                list-style-type: none;  
+                margin-right: 40px;
+            }         
+            li{
+                display: inline;
+            }            
+            hr{
+            width: 100%;           
+            }
+            .span{
+                display: flex;
+            }
+            
+            .picture1{
+                width: 450px;
+                height: 450px;
+                padding: 15px;
+                
+            }
+            
+            .picture2{
+                width: 150px;
+                height: 100px;
+                padding: 15px;
+                margin-left: -20px;
+            } 
+
+            p{
+                font-size: 14px; 
+                line-height: 1.6;
+            }
+            
+            h1{
+                font-size: 34px;
+                
+            }
+            
+            .divLeft{
+                padding: 70px;
+            }
+            
+            .divLeft2{
+                margin-left: 70px;
+                
+            }
+            
+            .navigation{
+                margin-right: 10px;
+
+                
+            }
+            
+            .book{
+                background-color: green;
+            }
+            
+            .background6{
+                height: 790px;
+                width: 100%;
+                background-size: cover;
+                background-repeat: no-repeat;
+                position: absolute;
+                opacity: 0.5;
+            }
+            
+            .logo{
+                width: 250px;
+                height: 250px;
+                margin-left: 1000px;
+                margin-top: -280px;
+            }
+            
+        </style>
+        
+        <link rel="stylesheet" href="style.css">
+        <title>About Us.</title>
+    </head>
+    <body>
+        <!--Navigation bar-->
+         <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="homepage.html">Home</a>
+            <a href="aboutArtist.html">Artist</a>
+            <a href="contactUs.jsp">Contact</a>
+            <a href="staffLogin.jsp">Admin</a>
+            <a href="refund.jsp">Refund</a>
+            <a class="w3-text-blue" href="bookingOrder.jsp"><b>Book</b></a>
+          </div>
+
+        <div id="main">
+            <!--Background image and Top bar eg: logo DoNation and logo Caliph Buskers-->
+            <img  class="background6" src="Image/InsideStadiumConcert.jpg">
+            <div class="span">           
+                <img src="Icon/menu.png" class="menuicon" onclick="openNav()">
+                <div>             
+                    <img src="Image/logo white.png" class="icon">
+                    <img src="Image/caliph buskers logo.png" class="icon">
+                </div>    
+            </div>
+            
+            <!--Page Content-->
+            <div>
+                <article class="divLeft">
+                    <h1><b>About Us, Our Story.</b></h1>
+                    
+                    <p>We believe that everyone deserves to have a happy and cheerful life. Always helping each other will make other <br>
+                       people happy: Our goal is to discover any poor community that will affect their daily life. Since 2016, our <br>
+                       organization has carried out various charitable activities that have helped various walks of life. The concept <br>
+                       of our organization is to organize the concerts with famous performers and all the profits are donated to those in need. <br>
+                       Our efforts will continue to be implemented with the enthusiasm given by the community and in turn we will <br> 
+                       ensure that more people in the community are happy.
+                     </p>
+                </article>  
+            </div>
+            <div>
+                <img src="Image/logo color.png" class="logo">
+            </div>
+        </div>
+        
+        <!--Navigation bar details-->
+        <script>
+            /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+                function openNav() {
+                  document.getElementById("mySidenav").style.width = "250px";
+                  document.getElementById("main").style.marginLeft = "250px";
+                  document.body.style.backgroundColor = "rgba(0,0,0,0.-4)";
+                }
+
+                /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+                function closeNav() {
+                  document.getElementById("mySidenav").style.width = "0";
+                  document.getElementById("main").style.marginLeft = "0";
+                  document.body.style.backgroundColor = "black";
+                } 
+        </script>
+    </body>
+</html>

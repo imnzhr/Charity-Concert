@@ -1,0 +1,15 @@
+Project Storyboard CSC584
+
+Members:
+1) Muhammad Afiq Bin Zulkifly (2019423132)
+2) Imman Zuhairy Bin Ramlee (2019268426)
+3) Muhammad Azim Bin Mohd Fakhrul Zaman (2019406002)
+
+List of pages:
+1)Homepage
+2)About artist page
+3)About us page
+4)Contact us page
+5)Booking page
+6)Receipt page
+7)Ticket view page
